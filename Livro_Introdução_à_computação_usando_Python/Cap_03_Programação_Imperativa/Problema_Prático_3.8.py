@@ -7,6 +7,7 @@ entrada e retorna a média dos números. Um exemplo de uso é:
 
 
 def media(a, b):
+    'Retorna a média de a e b'
     return (a+b)/2
 
 
