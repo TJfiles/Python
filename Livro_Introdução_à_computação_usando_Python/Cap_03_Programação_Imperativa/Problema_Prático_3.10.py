@@ -8,9 +8,9 @@ valores negativos na lista. A função não deverá retornar nada.
 """
 
 
-def negatives(lista = list):
+def negatives(lst):
     'Aceita uma lista como entrada e imprime os valores negativos da lista'
-    for n in lista:
+    for n in lst:
         if n < 0:
             print(n)
 
