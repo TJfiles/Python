@@ -14,10 +14,22 @@ Login: john
 Usuário desconhecido.
 Fim.
 """
+'''users = ['joe', 'sue', ' hani', 'sophie']
+
 login = input('Login: ')
-users = ['joe', 'sue', ' hani', 'sophie']
 if login.lower() in users:
     print('Você entrou!')
 else:
     print('Usuário desconhecido.')
 print('Fim')
+
+'''
+
+'''listaPalavras = eval(input('Digite a lista de palavras: '))
+for palavra in listaPalavras:
+    if len(palavra) == 4:
+        print(palavra)
+        
+print()'''
+
+print(help(eval))

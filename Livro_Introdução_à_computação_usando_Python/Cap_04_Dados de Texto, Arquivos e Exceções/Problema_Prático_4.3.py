@@ -12,4 +12,5 @@ Smith John Paul
 ultimo = 'Smith'
 primeiro = 'John'
 meio = 'Paul'
-print(ultimo+primeiro+meio)
+print(ultimo, primeiro, meio, sep='\t')
+
