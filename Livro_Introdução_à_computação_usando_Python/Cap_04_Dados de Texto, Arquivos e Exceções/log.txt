@@ -1,0 +1,3 @@
+Tuesday Jun/21/22 02:48 PM: Arquivo example.txt aberto.
+Tuesday Jun/21/22 02:48 PM: Arquivo example.txt aberto.
+Tuesday Jun/21/22 02:48 PM: Arquivo log.txt aberto.
