@@ -32,7 +32,8 @@ True
             return True
         '''
 
-print(aritmetica([3, 6, 9, 12, 15]))
+'''print(aritmetica([3, 6, 9, 12, 15]))
 
 print()
 print(aritmetica([3, 6, 9, 11, 14]))
+'''
