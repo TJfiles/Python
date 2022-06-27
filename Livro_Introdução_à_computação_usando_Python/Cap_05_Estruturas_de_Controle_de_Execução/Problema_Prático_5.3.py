@@ -11,12 +11,15 @@ True
 """
 
 
-'''def aritmetica(lst):
+def aritmetica(lst):
     """Retorna True se a lista lst tiver uma sequência aritmética, False se caso contrário"""
-    if len(lst) > 2:'''
-
-
-
+    if len(lst) > 2:
+        return True
+    dif = lst[1] - lst[0]
+    for i in range(1, len(lst)-1):
+        if lst[i+1] - lst[i] != dif:
+            return False
+    return True
 
 '''    dif_base = 0
     print(lst)
@@ -32,8 +35,7 @@ True
             return True
         '''
 
-'''print(aritmetica([3, 6, 9, 12, 15]))
+print(aritmetica([3, 6, 9, 12, 15]))
 
 print()
 print(aritmetica([3, 6, 9, 11, 14]))
-'''
